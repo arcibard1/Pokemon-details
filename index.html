@@ -5,8 +5,17 @@
     <script src="index.js" defer></script>
 </head>
 <body>
-    <ul id="pokemon-list"></ul>
-    <input type="text" id="pokemon-input" placeholder="Type a Pokémon name">
-    <button id="add-pokemon">Add Pokémon</button>
+    <div id="pokemon-list-page">
+        <ul id="pokemon-list"></ul>
+        <input type="text" id="pokemon-input" placeholder="Type a Pokémon name">
+        <button id="add-pokemon">Add Pokémon</button>
+    </div>
+
+    <div id="pokemon-details-page" style="display: none;">
+        <button id="back-button">Back</button>
+        <h2 id="pokemon-name"></h2>
+        <img id="pokemon-image" src="" alt="">
+    </div>
 </body>
 </html>
+
